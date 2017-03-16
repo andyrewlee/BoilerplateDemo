@@ -1,0 +1,6 @@
+rootProject.name = 'BoilerplateDemo'
+
+include ':app'
+
+include ':react-native-android-library-boilerplate'
+project(':react-native-android-library-boilerplate').projectDir = new File(settingsDir, '../node_modules/react-native-android-library-boilerplate/android')
